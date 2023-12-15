@@ -1,0 +1,96 @@
+.App{
+    align-items: center;
+
+}
+
+.App-header{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(8px + 2vmin);
+    color: white;
+    background-color: white;
+}
+
+
+
+.item-info{
+    width: 80%;
+    height:80%;
+    border-radius: 16px;
+    padding: 32px;
+    color: rgb(2, 2, 2);
+}
+
+
+.glossary-btn{
+    width: 90%;
+    height:8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right:10%;
+    margin-top: 2vh;
+    color: rgb(2,2,2);
+    cursor:pointer;
+    border-bottom: 2px solid black;
+    user-select: none;
+}
+
+.glossary-btn:hover{
+    box-shadow: inset 0 0 20px rgb(150, 213, 240);
+    font-weight: bold;
+}
+
+.glossary-btn-incomplete{
+    width: 90%;
+    height:9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right:10%;
+    margin-top: 2vh;
+    color: rgb(2,2,2);
+    cursor:pointer;
+    border-bottom: 2px solid black;
+    user-select: none;
+    background-color: none;
+}
+
+
+.glossary-btn-complete{
+    width: 90%;
+    height:9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right:10%;
+    margin-top: 2vh;
+    cursor:pointer;
+    border-bottom: 2px solid black;
+    user-select: none;
+
+    font-weight: bold;
+    background-color:#85dff3;
+    color: rgb(168, 0, 151);
+
+}
+
+.glossary-btn-complete:hover{
+    border-bottom: 2px solid #85dff3;
+    box-shadow: inset 0 0 20px rgb(113, 213, 255);
+    font-weight: bold;
+}
+
+.glossary-btn-incomplete:hover{
+    border-bottom: 2px solid #85dff3;
+    box-shadow: inset 0 0 20px rgb(113, 213, 255);
+    font-weight: bold;
+}
+
