@@ -1,0 +1,25 @@
+.courseItem{
+    width: 350px;
+}
+.courseItem p{
+    margin: 6px 0px;
+}
+.courseItem-prices{
+    display: flex;
+    gap: 20px;
+}
+.courseItem-Newprice{
+    color: #59595a;
+    font-size: 30px;
+    font-weight: 600;
+}
+.courseItem-Oldprice{
+    color: #525252;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.courseItem:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}

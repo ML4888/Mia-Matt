@@ -1,0 +1,76 @@
+.heroSection{
+    height: 100vh;
+    background:  linear-gradient(180deg, #c1e9f8, #fcfcfc 5%);
+    display: flex;
+}
+.heroSection-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+.heroSection-left h2{
+    color: #000000;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.heroSection-left p{
+    color: #00cdfa;
+    font-size: 40px;   
+    font-weight: 700;
+}
+
+.heroSection-left h3{
+    color: #515960;
+    font-size: 30px;   
+    font-weight: 700;
+}
+
+.heroSection-left u{
+    text-decoration: underline #19e0ff;
+    font-weight: bold;
+    font-size: 40px; 
+  }
+
+.heroSection-hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.heroSection-hand-icon img{
+    width: 105px;
+}
+.heroSection-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #3ef3fd;
+    color: rgb(40, 57, 74);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.heroSection-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}

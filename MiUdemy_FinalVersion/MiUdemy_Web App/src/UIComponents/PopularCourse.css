@@ -1,0 +1,23 @@
+.popularCourse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+}
+.popularCourse h1{
+    color: #353535;
+    font-size: 50px;
+    font-weight: 600;
+}
+.popularCourse hr{
+    width: 500px;
+    height: 10px;
+    border-radius: 10px;
+    background: #00b3ff;
+}
+.popularCourse-item{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
