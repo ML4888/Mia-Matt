@@ -1,4 +1,10 @@
-MiUdemy’s Figma click:https://www.figma.com/team_invite/redeem/NgEOysVFSky8ciiv1Ur6zSKey Dev checklist:
+MiUdemy√ïs Figma click:
+
+https://www.figma.com/team_invite/redeem/NgEOysVFSky8ciiv1Ur6zS
+
+
+
+Key Dev checklist:
 - Figma to React Native 
 - Pass Props
 - Manage State
@@ -11,8 +17,15 @@ React Native installation:
 
 
 Commands for running the app:
+<<<<<<< HEAD
 1. npm install --global expo-cli (if you don’t have Expo installed already)
 2. expo init myLearningSchedule
 3. cd myLearningSchedule
+=======
+1. npm install --global expo-cli (if you don√ït have Expo installed already)
+2. expo init todoList
+3. cd todoList
+>>>>>>> 45df02f02e6549e8f6656b88ad5f65c4e9c4e205
 4. expo start
-
+
+
