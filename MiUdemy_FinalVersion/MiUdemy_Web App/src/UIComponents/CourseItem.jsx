@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 const CourseItem = (props) => {
   return (
     <div className='courseItem'>
-      <Link to={`/productCourse/${props.id}`}><img onClick={window.scrollTo(0,0)} src={props.image} alt="" /></Link>
+      <Link to={`/ProductCourse/${props.id}`}><img onClick={window.scrollTo(0,0)} src={props.image} alt="" /></Link>
       <p>{props.name}</p>
       <div className="courseItem-prices">
         <div className="courseItem-Newprice">
