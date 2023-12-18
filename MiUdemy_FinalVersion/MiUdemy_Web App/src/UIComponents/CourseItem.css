@@ -1,21 +1,22 @@
 .courseItem{
-    width: 350px;
+    width: 200px;
+    font-size: 12px;
 }
 .courseItem p{
-    margin: 6px 0px;
+    margin: 8px 0px;
 }
 .courseItem-prices{
     display: flex;
-    gap: 20px;
+    gap: 12px;
 }
 .courseItem-Newprice{
     color: #59595a;
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 600;
 }
 .courseItem-Oldprice{
     color: #525252;
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 500;
     text-decoration: line-through;
 }

@@ -1,39 +1,40 @@
 .heroSection{
-    height: 100vh;
+    height: 60vh;
     background:  linear-gradient(180deg, #c1e9f8, #fcfcfc 5%);
     display: flex;
+    justify-content:space-between;
 }
 .heroSection-left{
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    padding-left: 180px;
+    gap: 40px;
+    padding-left: 200px;
     line-height: 1.1;
+    justify-content:space-between;
 }
 .heroSection-left h2{
     color: #000000;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 600;
 }
 
 .heroSection-left p{
     color: #00cdfa;
-    font-size: 40px;   
+    font-size: 20px;   
     font-weight: 700;
 }
 
 .heroSection-left h3{
     color: #515960;
-    font-size: 30px;   
+    font-size: 18px;   
     font-weight: 700;
 }
 
 .heroSection-left u{
     text-decoration: underline #19e0ff;
     font-weight: bold;
-    font-size: 40px; 
+    font-size: 20px; 
   }
 
 .heroSection-hand-icon{
@@ -48,14 +49,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
-    width: 310px;
-    height: 70px;
+    gap: 8px;
+    width: 250px;
+    height: 40px;
     border-radius: 75px;
-    margin-top: 30px;
+    margin-top: 20px;
     background: #3ef3fd;
     color: rgb(40, 57, 74);
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
 }
 
@@ -63,7 +64,7 @@
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:space-between;
 }
 
 .nav-menu li{
