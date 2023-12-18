@@ -3,9 +3,16 @@ MiUdemy’s Figma click:https://www.figma.com/team_invite/redeem/NgEOysVFSky8cii
 - Pass Props
 - Manage State
 
+React Native installation:
+
+1. npx create-expo-app myLearningSchedule
+2. cd myLearningSchedule
+3. npx expo start
+
+
 Commands for running the app:
 1. npm install --global expo-cli (if you don’t have Expo installed already)
-2. expo init todoList
-3. cd todoList
+2. expo init myLearningSchedule
+3. cd myLearningSchedule
 4. expo start
 
