@@ -1,0 +1,37 @@
+[
+    {"id" : 1,
+    "name" : "Course 1", 
+    "price" : 50, 
+    "image" : "course1.jpg",
+    "description":"Course description 1 xxxxxxxxxxxxxxx"},
+
+    {"id" : 2,
+    "name" : "Course 2", 
+    "price" : 30, 
+    "image" : "course1.jpg",
+    "description":"Course description 2 xxxxxxxxxxxxxxx"},
+
+    {"id" : 3,
+    "name" : "Course 3", 
+    "price" : 40, 
+    "image" : "course3.jpg",
+    "description":"Course description 3 xxxxxxxxxxxxxxx"},
+
+    {"id" : 4,
+    "name" : "Course 4", 
+    "price" : 200,
+    "image" : "course4.jpg",
+    "description":"Course description 4 xxxxxxxxxxxxxxx"},
+
+    {"id" : 5,
+    "name" : "Course 5", 
+    "price" : 100,
+    "image" : "course5.jpg",
+    "description":"Course description 5 xxxxxxxxxxxxxxx"},
+
+    {"id" : 6,
+    "name" : "Course 6", 
+    "price" : 50,
+    "image" : "course6.jpg",
+    "description":"Course description 6 xxxxxxxxxxxxxxx"}
+]
