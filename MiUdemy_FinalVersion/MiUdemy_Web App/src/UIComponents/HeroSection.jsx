@@ -34,7 +34,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="heroSection-right">
-          <img src={hero_image} alt="" />
+          <img className="heroSection-img" src={hero_image} alt="" />
         </div>
       </div>
 

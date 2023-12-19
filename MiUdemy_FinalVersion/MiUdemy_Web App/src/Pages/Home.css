@@ -1,0 +1,13 @@
+.test-box{
+    width: 90vh;
+    height:90xh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+  }
+  
+  @media only screen and (min-width:700px) and (max-width:900px){
+    .test-box{
+      background-color:#919191;
+    }
+  }
+  

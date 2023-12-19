@@ -7,10 +7,10 @@ import NewsLetter from '../UIComponents/NewsLetter';
 
 const Home = () => {
   return (
-    <div>
+    <div >
       <HeroSection/>
       <PopularCourse/>
-      <Offers/>
+       <Offers/> 
       <NewCourse/>
       <NewsLetter/>
     </div>

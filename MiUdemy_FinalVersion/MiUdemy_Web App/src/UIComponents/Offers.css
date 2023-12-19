@@ -1,12 +1,16 @@
 .offers{
-    width: 65%;
+    width: 90%;
     height: 20vh;
     display: flex;
-    margin: auto;
-    padding: 0px 70px;
-    margin-bottom: 20px;
+    /* margin: auto; */
+    /* padding: 0px 70px; */
+    margin-top: 50px;
+    /* align-items: center; */
+    margin-left: 60px;
     background: linear-gradient(180deg, #76dbfc 80%,#454545 30%);;
 }
+
+
 .offers-left{
     flex: 1;
     display: flex;
@@ -37,12 +41,16 @@
     cursor: pointer;
     font-weight: bold;
 }
+
+
+
+
 .offers-right{
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    padding-top: 25px;
+    /* justify-content: flex-end; */
+    /* padding-top: 25px; */
 }
 
 .offers-left u{

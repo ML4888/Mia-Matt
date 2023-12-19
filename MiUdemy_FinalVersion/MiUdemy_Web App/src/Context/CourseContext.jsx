@@ -17,12 +17,52 @@ we Can access these functions and values in any components
 */
 
 
+const getDefaultCart = ()=>{
+    let cart = {};
+    for (let index = 0; index < all_course.length+1; index++) {
+        cart[index] = 0;
+    }
+    return cart;
+}
+
 const CourseContextProvider = (props) => {
 
-    const contextValue = {all_course};
+    const [cartItems,setCartItems] = useState(getDefaultCart());
     
+    
+    const addToCart = (itemId) =>{
+        setCartItems((prev)=>({...prev,[itemId]:prev[itemId]+1}));
+        console.log(cartItems);
+    }
 
-    /* return the context value through course context provider */ 
+    const removeFromCart = (itemId) =>{
+        setCartItems((prev)=>({...prev,[itemId]:prev[itemId]-1}))
+    }
+    
+    const getTotalCartAmount = () => {
+        let totalAmount = 0;
+        for (const item in cartItems) {
+          if (cartItems[item] > 0) {
+            let itemInfo = all_course.find((course) => course.id === Number(item));
+            totalAmount += cartItems[item] * itemInfo.new_price;
+          }
+        }
+        return totalAmount;
+      }
+
+      const getTotalCartItems = () =>{
+        let totalItem = 0;
+        for(const item in cartItems)
+        {
+            if(cartItems[item]>0)
+            {
+                totalItem+= cartItems[item];
+            }
+        }
+        return totalItem;
+      }
+
+    const contextValue = {getTotalCartItems,getTotalCartAmount,all_course,cartItems,addToCart,removeFromCart};
     return (
         <CourseContext.Provider value={contextValue}>
             {props.children}

@@ -2,22 +2,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-    height: 50vh;
+    gap: 1vh;
+    margin-top: 70px;
 }
+
+.popularCourse-item{
+    margin-top: 5vh;
+    display: flex;
+    gap: 5vh;
+}
+
 .popularCourse h1{
     color: #353535;
-    font-size: 30px;
+    font-size: 6vh;
     font-weight: 600;
 }
-.popularCourse hr{
-    width: 400px;
-    height: 8px;
+.popularCourse hr {
+    /* width: 400px;
+    height: 6px;
     border-radius: 10px;
+    background: #00b3ff; */
+    width: 30vw;
+    height: 5px;
+    border-radius: 5px;
     background: #00b3ff;
-}
-.popularCourse-item{
-    margin-top: 10px;
-    display: flex;
-    gap: 10px;
-}
+  }
