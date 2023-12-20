@@ -1,12 +1,13 @@
-import React from 'react'
-import CartItems from '../UIComponents/CartItems'
+import TodayDeals from './TodayDeals/TodayDeals';
+import React from 'react';
 
-const Cart = () => {
-  return (
-    <div>
-      <CartItems/>
-    </div>
-  )
+function Cart() {
+    return (
+        <div>
+			<TodayDeals/>
+		</div>
+    )
+
 }
 
-export default Cart
+export default Cart;
