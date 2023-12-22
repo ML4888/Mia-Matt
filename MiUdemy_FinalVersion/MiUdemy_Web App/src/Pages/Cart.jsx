@@ -1,10 +1,11 @@
-import TodayDeals from './TodayDeals/TodayDeals';
+//import TodayDeals from './TodayDeals/TodayDeals';
+import CartItems from '../UIComponents/CartItems';
 import React from 'react';
 
 function Cart() {
     return (
         <div>
-			<TodayDeals/>
+			<CartItems/>
 		</div>
     )
 

@@ -231,7 +231,7 @@ let all_course = [
   {
     id: 25,
     name: "Course Name - design Courses 25 xxxxxxxxxxxx",
-    category: "designCourses",
+    category: "businessCourse",
     image: course25_img,
     new_price: 85.0,
     old_price: 120.5,
@@ -239,7 +239,7 @@ let all_course = [
   {
     id: 26,
     name: "Course Name - design Courses 26 xxxxxxxxxxxx",
-    category: "designCourses",
+    category: "businessCourse",
     image: course26_img,
     new_price: 85.0,
     old_price: 120.5,

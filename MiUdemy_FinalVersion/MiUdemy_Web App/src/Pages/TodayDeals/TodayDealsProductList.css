@@ -21,12 +21,12 @@
     width: 300px;
     margin: 5px;
     text-align: center;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     padding: 10px 10px;
   }
 
 .todayDealsProductList-containerItem:hover{
-    background-color: rgb(221, 255, 228);
+    background-color: rgb(155, 189, 202);
   }
 
 .todayDealsProductList h1{
@@ -35,7 +35,7 @@
   }
   
 .todayDealsProductList img {
-    width: 100%;
+    width: 5vh;
     height: auto;
     border-radius: 7px;
   }
@@ -67,13 +67,13 @@
   .addToCartBtn{
     padding: 15px 20px;
     border-radius: 6px;
-    background-color: #1c3455;
+    background-color: #70d6f5;
     color: #FFF;
     cursor: pointer;
   }
   
   .subtractBtn{
-    background-color: #1c3455;
+    background-color: #ffffff;
     font-weight: bold;
     color: #FFF;
     border-radius: 6px;
@@ -126,7 +126,7 @@
     width: 70%;
   }
   .checkoutTable{
-    width: 100%;
+    width: 150px%;
     text-align: left;
     border-spacing: 0px;
   }
@@ -139,7 +139,7 @@
     font-size: 16px;
   }
   .checkoutTable img{
-    width: 150px;
+    width: 200px;
     margin: 15px;
   }
   .productSubTotal{

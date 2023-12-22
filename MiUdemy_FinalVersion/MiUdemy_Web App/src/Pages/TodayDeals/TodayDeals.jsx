@@ -16,14 +16,11 @@ export default function TodayDeals() {
 	return (
 
 			<CartContext.Provider value={{cartItems,setCartItems}}>
-				const {cartItems, setCartItems} = useContext(CartContext)
-				
 
-				<nav>
-					<Link to="/">HOME ||</Link> 
-					<Link to="/todaydeals">TODAY DEALS COURSES ||</Link> 
+					<Link to="/">  HOME ||</Link> 
+					<Link to="/todaydeals">   TODAY DEALS COURSES ||</Link> 
 					<Link to="/TodayDealsCheckout"> MY SHOPPING CART</Link>
-				</nav>
+				
 				<div>
 					<TodayDealsProductList/>
 				</div>
